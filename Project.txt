@@ -1,0 +1,43 @@
+
+# coding: utf-8
+
+# In[1]:
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+get_ipython().magic('matplotlib inline')
+
+
+# In[13]:
+
+df = pd.read_csv('https://raw.githubusercontent.com/jackiekazil/data-wrangling/master/data/chp3/data-text.csv')
+df.head(2)
+#df.shape
+
+
+# In[14]:
+
+df1 = pd.read_csv('https://raw.githubusercontent.com/kjam/data-wrangling-pycon/master/data/berlin_weather_oldest.csv')
+df1.head(2)
+
+
+# In[19]:
+
+df.info()
+
+
+# In[20]:
+
+df1.info()
+
+
+# In[52]:
+
+df.index[0]
+
+
+# In[ ]:
+
+
+
